@@ -1,0 +1,145 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #000;
+}
+
+/* Center mobile UI */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Mobile frame */
+.mobile {
+  width: 375px;
+  height: 812px;
+  background: #F7F8F9;
+  border-radius: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+h1, h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #1D2226;
+}
+
+/* Subtext */
+.subtext {
+  font-size: 14px;
+  color: #6B6B6B;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* Input container */
+.inputBox {
+  margin-top: 18px;
+  position: relative;
+}
+
+.inputBox label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: #F7F8F9;
+  padding: 0 4px;
+  font-size: 12px;
+  color: #6C25FF;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 14px 10px;
+  border-radius: 6px;
+  border: 1px solid #CBCBCB;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.primary {
+  background: #6C25FF;
+  color: #fff;
+}
+
+/* Secondary Button */
+.secondary {
+  background: #EDE2FF;
+  color: #6C25FF;
+}
+
+/* Disabled button (login screen) */
+.disabled {
+  background: #CBCBCB;
+  color: #fff;
+}
+
+/* Radio section */
+.radio-group {
+  margin-top: 20px;
+}
+
+.radio-group p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.profile h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 13px;
+  color: #6B6B6B;
+}
+
+/* Description text */
+.desc {
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6B6B6B;
+}
